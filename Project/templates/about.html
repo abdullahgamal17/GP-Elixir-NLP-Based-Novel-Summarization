@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>About Page</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="static/index.css" />
+
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    
+</head>
+<body class="bg-img">
+    <header class="header">
+        <h2 href={{  url_for('main_page') }} class="logo">Eli<span>xir</span></h2>
+        <nav class="navbar">
+            <ul>
+                <li><a href={{  url_for('main_page') }} >Home</a></li>
+                <li><a href={{  url_for('about_page') }} class="active">About</a></li>
+                <li>
+                    <a href="#listofOurServises">Our Services</a>
+                    <div class="sub1">
+                        <ul id="listofOurServises" class="listofOurServises ">
+                            <li class="se"><a href={{  url_for('character_network_page')  }} target="_parent">Character_Network</a></li>
+                            <li class="se"><a href={{  url_for('emotion_analysis_page')  }} target="_parent">Emotions_Analysis</a></li>
+                            <li class="se"><a href={{  url_for('character_map_page')  }} target="_parent">Character_Map</a></li>
+                            <li class="se"><a href={{  url_for('novel_summarization_page')  }} target="_parent">Summarization</a></li>
+                            <li class="se"><a href={{  url_for('review_analysis_page')  }} target="_parent">Reviews_Analysis</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li> <a href={{  url_for('contact_page')  }}>Contact</a></li>
+            </ul>
+
+        </nav>
+
+
+
+    </header>
+    <section class="about" id="about">
+
+        <div class="about-content">
+            <i id="ibook" class='bx bxs-book'></i>
+            <h2 class="heading">About<span id="span2">US</span></h2>
+            <p class="p3">We'll help you <span id="span2">track your reading</span> and <span id="span2">choose</span></p>
+            <p class="p3"><span id="span2">your next book</span> based on your mood and your</p>
+            <p class="p3">favourite topics and themes.</p>
+            <br>
+            <br>
+            <br>
+
+            <p class = "abstract">Literature encompasses a rich tapestry of characters, their interactions, and the underlying messages embedded within their dialogue. However, navigating through complex and lengthy texts can be challenging for readers seeking an overview of the novel's essence. In this paper, we present an innovative solution in the form of an interactive dashboard that offers a comprehensive analysis of novels. We aim to empower readers to make informed decisions about their reading choices and enhance their overall reading experience.
+                <br>
+                <br>
+
+                The interactive dashboard incorporates five distinct services, seamlessly integrated to provide users with a centralized platform for exploration and engagement. These services include emotional analysis, character networks, character maps, chapter summaries, and reviews analysis. 
+                <br>
+                <br>
+
+                The emotional analysis delves into the sentiments and thematic elements prevailing throughout the novel. By employing advanced sentiment analysis techniques, readers gain insights into the emotional landscape and the contributions of significant characters.
+                <br>
+                <br>
+                
+                Character networks unravel the intricate web of relationships and interactions among characters within the novel. The visual representation of character networks showcases the formation of communities and provides a deeper understanding of the social dynamics at play.
+                <br>
+                <br>
+                
+                The character map focuses on the various types of relationships found within the novel, such as familial, romantic, and friendship ties. This visual representation offers readers a comprehensive overview of the intricate connections between characters.
+                <br>
+                <br>
+                
+                Chapter summaries provide concise summaries of each chapter, allowing readers to grasp the plot's progression and major events within a shorter timeframe. This service caters to readers with time constraints who desire a brief overview of the novel.
+                <br>
+                <br>
+                
+                Reviews analysis offers an evaluation of reader feedback and reviews to gauge the overall reception of the novel. By analyzing sentiments expressed by other readers, users can gain valuable insights into how the book resonated with its audience.
+                <br>
+                <br>
+                
+                The interactive dashboard integrates these services, providing a user-friendly interface for readers to interact with the novel's analysis seamlessly. Users can explore emotional analysis, character networks, character maps, chapter summaries, and reviews analysis holistically and intuitively.
+                <br>
+                <br>
+                
+                Our solution empowers readers to make informed decisions about their reading preferences. By utilizing the interactive dashboard, readers can gain a comprehensive overview of novels, facilitating the exploration of emotions, character dynamics, plot summaries, and reader feedback. Ultimately, our goal is to enhance the reading experience, enabling users to delve into novels with greater understanding and enjoyment.
+                </p>
+
+        </div>
+    </section>
+</body>
+</html>

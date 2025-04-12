@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <link rel="stylesheet" type="text/css" href="static/index.css" />
+    <link rel="stylesheet" href="static/thanks.css">
+
+</head>
+<body>
+    <header class="header">
+        <h2 href="#" class="logo">Eli<span>xir</span></h2>
+        <nav class="navbar">
+            <ul>
+                <li><a href={{  url_for('main_page') }} >Home</a></li>
+                <li><a href={{  url_for('about_page') }} class="active">About</a></li>
+                <li>
+                    <a href="#listofOurServises">Our Services</a>
+                    <div class="sub1">
+                        <ul id="listofOurServises" class="listofOurServises ">
+                            <li class="se"><a href={{  url_for('character_network_page')  }} target="_parent">Character_Network</a></li>
+                            <li class="se"><a href={{  url_for('emotion_analysis_page')  }} target="_parent">Emotions_Analysis</a></li>
+                            <li class="se"><a href={{  url_for('character_map_page')  }} target="_parent">Character_Map</a></li>
+                            <li class="se"><a href={{  url_for('novel_summarization_page')  }} target="_parent">Summarization</a></li>
+                            <li class="se"><a href={{  url_for('review_analysis_page')  }} target="_parent">Reviews_Analysis</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li> <a href={{  url_for('contact_page')  }}>Contact</a></li>
+            </ul>
+
+        </nav>
+
+
+    </header>
+    <img src="static/images/email.png" id="gmail">
+    <img src="static/images/green_arrow.png" id="arrow1">
+    <img src="static/images/arrow.png" id="arrow2">
+    <img src="static/images/arrow.png" id="arrow3">
+
+    <img src="static/images/dashboard.png" id="dash">
+    <img src="static/images/time.png" id="time">
+    <img src="static/images/confermed.png" id="confirme">
+
+    <p id="p6">
+        <span id="thankyou">Thank you </span>for uploading your Novel to our website and providing your email address <br />
+        <br />
+        <br />
+        We would like to inform you that a dashboard containing the analysis of the novel will be sent to you within approximately <span id="min">30 minutes to an hour.</span><br />
+        <br />
+        <br />
+        You will receive it on the Gmail account you provided. Afterward, you will be able to easily browse the dashboard and delve into the story analysis.
+    </p>
+
+</body>
+
+
+</html>

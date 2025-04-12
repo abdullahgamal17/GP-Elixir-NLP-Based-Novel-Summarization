@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: Poppins,sans-serif;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("images/blackbackground.jpeg") no-repeat;
+    background-size:cover;
+    background-position: center;
+
+}
+
+#confirme{
+    width: 16%;
+    height: 25%;
+    position: absolute;
+    top: 180px;
+    left: 120px
+}
+
+#arrow1{
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    top: 260px;
+    left: 340px
+}
+
+#time{
+    width: 16%;
+    height: 21%;
+    position: absolute;
+    top: 200px;
+    left: 430px;
+}
+#arrow2{
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    top: 260px;
+    left: 640px
+}
+#gmail{
+    width: 20%;
+    height: 28%;
+    position: absolute;
+    top: 162px;
+    left: 740px
+}
+
+#arrow3{
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    top: 260px;
+    left: 1020px;
+}
+#dash{
+    width: 20%;
+    height: 28%;
+    position: absolute;
+    top: 165px;
+    left: 1120px;
+}
+
+#p6 {
+    font-weight: 300;
+    font-size: 2.3rem;
+    line-height: 1.75rem;
+    margin-top: 275px;
+    margin-left: 10px;
+    color: #FFF;
+    transition: .5s ease;
+    padding-left: 20px;
+    text-align: center;
+    /* width: 90%; */
+}
+
+
+#thankyou{
+    color: #a81bff;
+    text-shadow: 2px 4px 4px #9f3ddbc2;
+    font-size: 3.3rem;
+}
+
+#min {
+    color: #a81bff;
+    font-size: 2.05rem;
+    text-shadow: 2px 4px 4px #9f3ddbc2;
+}
+
+
+
+#p6:hover {
+    font-size: 2.0rem;
+    box-shadow: 0 0 1rem #4058b1;
+    background: #7b8ec3b3;
+    color: #fff;
+    padding: 13px 13px;
+    border-radius: 21px;
+}
+
+

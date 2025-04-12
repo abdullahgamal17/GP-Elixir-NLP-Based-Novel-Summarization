@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: Poppins, sans-serif;
+}
+
+:root {
+    --bg-color: #361422;
+    --second-bg-color: #4a2e39;
+    --text-color: #fff;
+    --main-color: #871730;
+}
+
+html {
+    font-size: 62.5%;
+    overflow: hidden;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("images/background.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+}
+
+.container {
+    display: flex;
+}
+
+.services {
+    position: relative;
+    width: 1200px; /* Adjust width as needed */
+    height: 640px;
+    background: transparent;
+    border: 3px solid #bfc2d58a;
+    border-radius: 20px;
+    backdrop-filter: blur(22px);
+    font-size: 1.7rem;
+    padding: 20px 20px;
+    margin-right: 20px; /* Add some spacing */
+}
+
+
+input {
+    background: #8c9ed196;
+    color: #fff;
+    box-shadow: 0 0 1rem #4058b1;
+    padding: 5px 5px;
+    border-radius: 21px;
+    padding: 5px;
+    font-size: 1.6rem;
+    
+}
+#left-section{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.vl {
+  border-left: 4px solid rgb(94, 182, 244) ;
+  height: 350px;
+  position: absolute;
+  top: 25%;  
+  left : 600px;
+  bottom: 40%;
+}
+
+
+#right_section {
+    position: absolute;
+    top: 220;  
+    left : 700px;
+    bottom: 30%;
+}
+
+
+.drop-container {
+    position: relative;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px dashed #fffcfc;
+    color: #fffcfc;
+    cursor: pointer;
+    transition: background .2s ease-in-out, border .2s ease-in-out;
+  }
+  
+  .drop-container:hover {
+    background: #9ccbfe;
+    border-color: #111;
+  }
+  
+  .drop-container:hover .drop-title {
+    color: #ffffff;
+  }
+  
+  .drop-title {
+    color: #faf8f8;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    transition: color .2s ease-in-out;
+  }
+
+
+#email, #goodreads,#storygraph,#text {
+    width: 300px;
+    height: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+input:hover {
+    color: #ffffffcc;
+    background-color: #232426d9;
+    padding: 5px;
+    font-size: 1.5rem;
+    border-radius: 23px;
+}
+input.defaultCheckbox {
+    width: 17px;
+    height: 17px;
+}
+
+label{
+    color:#fff;
+    /* font-size: 22px; */
+}
+.inner_txt{
+    margin-left: 30px;
+    font-size: 16px;
+}
+
+.inner_txt #range{
+    margin-left: 33px;
+}
+
+.inner_txt #min_label{
+    position: absolute; 
+    top: 56%; 
+    color: rgb(59, 203, 255);
+}
+.inner_txt #max_label{
+    position: absolute; 
+    top: 56%; 
+    color: rgb(59, 203, 255);
+    margin-left: 10px;
+}
+
+
+.email_txt,#checkbox{
+    font-size:1.9rem;
+    color:#FFf;
+    font-weight:bold;
+}
+#btn1 {
+    background-color: #7b8ec3b3;
+    width: 150px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 11px;
+    cursor: pointer;
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 500;
+    transition: .5s;
+    font-weight: bold;
+    margin-left: 33%;
+    margin-top: 30px;
+    transform: translate(130px, 15px);
+}
+
+    #btn1:hover{
+        background: transparent;
+        color: #fff;
+        box-shadow: 0 0 2rem #4058b1;
+        font-size: 1.7em;
+    }
+#titleofform {
+    color: #ffffff;
+    font-size: 60px;
+    margin-left: 25%;
+    padding-left: 83px;
+    font-weight: bold;
+    text-decoration: underline rgb(94, 182, 244) 2px;
+    text-underline-offset: 8px;
+}
+
+.icon-close {
+    color: #ffffff;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    top: 0;
+    right: 0;
+    width: 44px;
+    height: 45px;
+    background: #bfc2d58a;
+    font-size: 3em;
+    border-radius: 0px 17px;
+    padding: 2px 4px;
+    cursor:pointer;
+    z-index:1;
+    text-decoration: none;
+}
+
+    .icon-close:hover {
+        color: rgb(255, 254, 254);
+        background: #bfc2d58a;
+        font-size: 2em;
+        border: 2px solid #bfc2d58a;
+        box-shadow: 0 0 2rem #4058b1;
+    }
+

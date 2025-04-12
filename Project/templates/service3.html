@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Character Map</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="static\index.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body class="bg-img">
+    <header class="header">
+        <h2 href="#" class="logo">Eli<span>xir</span></h2>
+        <nav class="navbar">
+            <ul>
+                <li><a href={{  url_for('main_page') }} >Home</a></li>
+                <li><a href={{  url_for('about_page') }} class="active">About</a></li>
+                <li>
+                    <a href="#listofOurServises">Our Services</a>
+                    <div class="sub1">
+                        <ul id="listofOurServises" class="listofOurServises ">
+                            <li class="se"><a href={{  url_for('character_network_page')  }} target="_parent">Character_Network</a></li>
+                            <li class="se"><a href={{  url_for('emotion_analysis_page')  }} target="_parent">Emotions_Analysis</a></li>
+                            <li class="se"><a href={{  url_for('character_map_page')  }} target="_parent">Character_Map</a></li>
+                            <li class="se"><a href={{  url_for('novel_summarization_page')  }} target="_parent">Summarization</a></li>
+                            <li class="se"><a href={{  url_for('review_analysis_page')  }} target="_parent">Reviews_Analysis</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li> <a href={{  url_for('contact_page')  }}>Contact</a></li>
+            </ul>
+
+        </nav>
+
+
+    </header>
+    <div>
+        <img id="img3" src="static/images/character_map.png">
+    </div>
+    <div class="service3">
+        <h2 class="h" >-Character Map</h2>
+        <p id="p3">
+            Explore the Family and Friendship Bonds
+            <br />
+            in Your Favorite Novels.
+            <br /><br />
+            <span style="font-weight: 800;">1-Our service visualizes Complex Relationships</span>.
+            <br /><br />
+            <span style="font-weight: 800;">2-Identify Key Relationships</span> where not all relationships
+            <br />
+            are equal in significance.
+            <br /><br />
+            <span style="font-weight: 800;">3-Uncover hidden connections</span> that hold the surprising
+            <br />
+            plot twists and the secrets and alliances that add
+            <br />
+            depth and suspense to the narrative.
+            <br /><br />
+            <span style="font-weight: 800;">4-Deepen Emotional Engagement</span> with the story.
+            <br /><br />
+            <span style="font-weight: 800;">5-Appreciate Character Growth</span> that allows you to trace
+            <br />
+            the character arcs within the context of their family
+            <br />
+            and friendship connections.
+
+        </p>
+
+
+    </div>
+    
+</body>
+</html>

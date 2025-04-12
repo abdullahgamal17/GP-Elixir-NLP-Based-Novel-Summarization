@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Form</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="static/formpage.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body class="bg-img">
+<div class="container">
+    <div class="services" id="services">
+        <a href={{  url_for('main_page') }} class="icon-close">
+            <i class='bx bx-x'></i>
+        </a>
+        <form id="form2" method="post" enctype=multipart/form-data>
+            <div id="right_section">
+
+                <label for="file" class="drop-container">
+                    <span class="drop-title">Drop files here</span>
+                    or
+                    <input type="file" id="file" name = "file" accept=".txt" required>
+                </label>
+
+                <!-- <label for="filenovel" id="file">File of Novel:</label>
+                <input type="file" id="filenovel" name="filenovel" /><br /> -->
+                <br />
+                <label for="email" id="email_txt" style="font-weight: bold;">Your Email:</label>
+                <input type="email" id="email" name="email" required/><br />
+            </div>    
+            <div class="vl"></div>
+            <fieldset>
+                <legend id="titleofform"><b>Select Services</b></legend>
+                <div id="left-section">
+                    <input type="checkbox" id="choose1" name="choose1" value="1" class="defaultCheckbox"/>
+                    <label for="choose1" id="checkbox"><b>1.Characters Network.</b></label><br /><br />
+                    <input type="checkbox" id="choose2" name="choose2" value="1" class="defaultCheckbox" />
+                    <label for="choose2" id="checkbox"><b>2.Emotion analysis.</b></label><br />
+                    <div class="inner_txt">
+                        <label for="btn">Enter the Emojy that you want: </label><br />
+                        <input type="text" id="text" name="emotions" value="enter emoji as happy,enjoy,fun" /><br /><br />
+                    </div>
+                    <input type="checkbox" id="choose3" name="choose3" value="1" class="defaultCheckbox"/>
+                    <label for="choose3" id="checkbox"><b>3.Character Map.</b></label><br /><br />
+                    <input type="checkbox" id="choose4" name="choose4" value="1" class="defaultCheckbox"/>
+                    <label for="choose4" id="checkbox"><b>4.Novel summarization.</b></label><br />
+                    <div class="inner_txt">
+                        <label for="btnn">Choose the summary length that you want: </label><br />
+                        <label id = "min_label"><b>min</b></label>
+                        <input id="range" type="range" min="0" max="100" step="10" name="sum_range" />
+                        <label id="max_label"><b>max</b></label>
+                        <br /><br />
+                    </div>
+                    <input type="checkbox" id="choose5" name="choose5" value="1" class="defaultCheckbox"/>
+                    <label for="choose5" id="checkbox"><b>5.Reviews analysis.</b></label><br />
+                    <div class="inner_txt">
+                        <label for="goodreads">Enter Goodreads link: </label><br />
+                        <input type="url" id="goodreads" name="goodreads" /><br />
+                        <label for="storygraph">Enter The Story Graph link: </label><br />
+                        <input type="url" id="storygraph" name="storygraph">
+                    </div>
+                </div>
+            </fieldset>
+            <button id="btn1" type="submit">Submit</button>
+
+        </form>
+
+    </div>
+</div>
+
+
+</body>
+</html>
