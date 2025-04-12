@@ -19,5 +19,4 @@ My graduation project introduces an interactive dashboard for comprehensive nove
 
 I encourage all of you, whether you're an avid reader, academic student, author, or researcher, to take advantage of this groundbreaking dashboard and elevate your reading experience to new heights. Embrace the power of data science and immerse yourself in literature like never before!
 
-To access the dashboard and delve into the exciting world of literary analysis, simply click on the following link:
-[Explore the Dashboard](https://lnkd.in/di4gHEHS)
+
